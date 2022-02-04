@@ -8,7 +8,7 @@ import {Navbar, Brand, Container, Link, Nav, Form, Button, Alert, Row, Col} from
 // import Container from 'rect-bootstrap/Container'
 
 AddProduct.getInitialProps = async (ctx) => {
-    const rawResponse = await fetch('http://shillingfintech.com/stock2/products/selections', 
+    const rawResponse = await fetch('https://shillingfintech.com/stock2/products/selections', 
     {
         method: "POST",
         headers: {
@@ -47,7 +47,7 @@ export default function AddProduct({selectionData}) {
   }
     async function product(action=''){
 
-            const rawResponse = await fetch('http://shillingfintech.com/stock2/products/create', 
+            const rawResponse = await fetch('https://shillingfintech.com/stock2/products/create', 
             {
                 method: "POST",
                 headers: {

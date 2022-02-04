@@ -1,0 +1,27 @@
+.cardContainer{
+    padding: 5px
+}
+.cardItem{
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+#createCont{
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.createBtn{
+    color: #fff;
+    background-color: #1bc777;
+    border-color: #3ca373;
+}
+.order{
+    display: inline;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-right: 4px;
+    width: 5px;
+    overflow: auto;
+    margin: 0px 4px;
+    border-right: solid 1px #0d6efd;
+}

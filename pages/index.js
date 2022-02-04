@@ -1,8 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import {useRouter} from 'next/router'
 import styles from '../styles/Login.module.css'
 
 export default function Home() {
+
+  const router = useRouter();
   return (
     <div className={styles.container}>
       <Head>
@@ -22,22 +25,19 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a className={styles.card} onClick={() => router.push('/login')}>
+            <h2>login &rarr;</h2>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="localhost:3000/AddUser" className={styles.card}>
+            <h2>Add User &rarr;</h2>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="localhost:3000/Users"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Users &rarr;</h2>
           </a>
 
           <a

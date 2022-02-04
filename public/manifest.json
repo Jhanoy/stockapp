@@ -3,7 +3,7 @@
     "background_color": "#3565f6",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/login",
+    "start_url": "/",
     "name": "Stock Management system",
     "short_name": "E Stock",
     "description": "Online stock management system",

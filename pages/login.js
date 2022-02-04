@@ -49,7 +49,7 @@ export default function Login(props) {
     }
   ///////////////////////////////////////////// LOGIN ////////////////////////////////////////////////////////
     async function stockLogin(){
-        const rawResponse = await fetch('http://shillingfintech.com/stock2/auth/login', 
+        const rawResponse = await fetch('https://shillingfintech.com/stock2/auth/login', 
         {
           method: "POST",
           headers: {

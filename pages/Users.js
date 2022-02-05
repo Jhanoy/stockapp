@@ -30,7 +30,7 @@ export default function Users() {
       </Navbar>
       <div className={usersStyle.cardContainer}>
         <div id={usersStyle.createCont} className="createCont d-grid gap-1">  
-        <Button className={usersStyle.createBtn} variant="success" size="lg" >
+        <Button className={usersStyle.createBtn} variant="success" size="lg" onClick={() => router.push('/AddUser')}>
             Create User
         </Button>{' '}
         </div>

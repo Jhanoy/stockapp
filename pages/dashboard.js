@@ -25,7 +25,7 @@ export default function Dashboard(){
                 <ListGroup.Item action href="#link2" onClick={() => router.push('/Products')}>
                 Products
                 </ListGroup.Item>
-                <ListGroup.Item action href="#link3" onClick={() => router.push('/Sales')}>
+                <ListGroup.Item action href="#link3" onClick={() => router.push('/AddSales')}>
                 Sales
                 </ListGroup.Item>
                 <ListGroup.Item action href="#link4" onClick={() => router.push('/Stores')}>
